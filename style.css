@@ -1,0 +1,112 @@
+/* .col-grid h2{
+    background-color: #c57c15;
+    padding: 10px;
+    border-radius: 1rem;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+section{
+    display: flex;
+   
+}
+section h1, h2{
+    color: white;
+
+}
+.row img{
+    display: flex;
+   height:600px ;
+    width: 400px;
+}
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.row{
+   cursor: pointer;
+}
+.MenuLink{
+    color: #c57c15;
+}
+.label-2{
+    color: #c57c15;
+}
+
+.home-menu{
+    background-image: url(assets/img-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 300px; */
+}
+
+.reservation-form { 
+    margin-top: 0.5rem;
+    /* margin-block-start: -270px;  */
+}
+
+.form-text { margin-block-end: 40px; }
+
+.form-text .link {
+  display: inline;
+  color: hsl(38, 61%, 73%);
+}
+.btn{
+    background-color: #c57c15;
+}
+.SubText{
+    color: white;
+   
+}
+
+.form-right .headline-1 { margin-block-end: 40px; }
+
+.form-right .contact-label { margin-block-end: 5px; }
+
+.form-right .separator { margin: 20px auto; }
+
+.form-right .body-4 {
+  color: var(--quick-silver);
+  line-height: var(--lineHeight-3);
+}
+
+.form-right .body-4:not(:last-child) { margin-block-end: 25px; }
+
+.form-left,
+.form-right { padding: 40px 20px 30px; }
+
+.input-field[type="date"] {
+  text-transform: uppercase;
+  padding-inline-end: 10px;
+}
+
+.input-field[type="date"]::-webkit-calendar-picker-indicator { opacity: 0; }
+
+textarea.input-field {
+    background-color: black;
+  resize: none;
+  height: 140px;
+  padding-block: 20px;
+  line-height: 1em;
+}
+
+.form-left .btn {
+  max-width: 100%;
+  width: 100%;
+}
+
+.form-right {
+  background-repeat: repeat;
+  background-position: top left;
+}
+
+
+@media screen and (min-width: 1026px){
+    .sec2 img{
+        padding-top: 8rem;
+    }
+    #DelMo{
+        margin-top: rem;
+    }
+  
+}
